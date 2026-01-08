@@ -92,8 +92,8 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"Error processing image: {e}")
-    #Instructions
-  st.sidebar.header("Instructions")
+#Instructions
+st.sidebar.header("Instructions")
 st.sidebar.write("""
 1. Upload an image of a handwritten digit (0-9)
 2. The image will be resized to 8x8 pixels
